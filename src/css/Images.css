@@ -1,0 +1,51 @@
+.p1
+{
+    width: 100%;
+}
+.p2{
+   height: 100vh;
+   width: 98.9vw;
+   justify-content: center;
+   filter: brightness(50%);
+}
+.contact-text
+{
+    position: relative;
+    font-size: 100px;
+    z-index: 20;
+}
+.text-image
+{
+    text-align: center;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 960px) {
+    .p2{
+        height: 70vh;
+        width: 100%;
+        justify-content: center;
+        filter: brightness(50%);
+     }
+     .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        font-weight: bold;
+      }
+  }
+

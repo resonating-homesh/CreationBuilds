@@ -1,0 +1,200 @@
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    top: 30px;
+    margin-bottom: 5px;
+}
+.image {
+    width: 91vw;
+    height: 92vh;
+    filter: brightness(50%)
+}
+.right-arrow {
+    position: absolute;
+    top: 40%;
+    right: 32px;
+    font-size: 3rem;
+    color: #fff;
+    z-index: 50;
+    cursor: pointer;
+    user-select: none;
+}
+.left-arrow {
+    position: absolute;
+    top: 40%;
+    left: 32px;
+    font-size: 3rem;
+    color: #fff;
+    z-index: 50;
+    cursor: pointer;
+    user-select: none;
+}
+.slide {
+    opacity: 0;
+}
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+.slider-text {
+    right: 50px;
+}
+.home-text {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 16vw;
+    padding-left: 200px;
+    padding-right: 200px;
+    z-index: 20;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+@media screen and (min-width:600px) and (max-width: 1000px) {
+    .home-text {
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        top: 25vh;
+        padding-left: 150px;
+        padding-right: 150px;
+        z-index: 20;
+        color: white;
+        font-style: bold;
+        font-size: medium;
+    }
+    .right-arrow {
+        position: absolute;
+        top: 40%;
+        right: 32px;
+        font-size: 3rem;
+        color: white;
+        z-index: 50;
+        cursor: pointer;
+        user-select: none;
+    }
+    .left-arrow {
+        position: absolute;
+        top: 40%;
+        left: 32px;
+        font-size: 3rem;
+        color: white;
+        z-index: 50;
+        cursor: pointer;
+        user-select: none;
+    }
+    .slider {
+        position: relative;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        top: 25px;
+        margin-bottom: 5px;
+    }
+    .image {
+        width: 91vw;
+        height: 64vh;
+        filter: brightness(50%)
+    }
+}
+@media screen and (min-width:300px) and (max-width: 600px) {
+
+    .home-text {
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        top: 20vh;
+        padding-left: 60px;
+        padding-right: 60px;
+        z-index: 20;
+        color: white;
+        font-style: bold;
+        font-size:small;
+    }
+    .right-arrow {
+        position: absolute;
+        top: 40%;
+        right: 20px;
+        font-size: 2rem;
+        color: white;
+        z-index: 50;
+        cursor: pointer;
+        user-select: none;
+    }
+    .left-arrow {
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        font-size: 2rem;
+        color: white;
+        z-index: 50;
+        cursor: pointer;
+        user-select: none;
+    }
+    .slider {
+        position: relative;
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        top: 25px;
+        margin-bottom: 5px;
+    }
+    .image {
+        width: 91vw;
+        height: 64vh;
+        filter: brightness(50%)
+    }
+}
+@media screen and (max-width:300px) {
+    .home-text {
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        top: 15vh;
+        padding-left: 60px;
+        padding-right: 60px;
+        z-index: 20;
+        color: white;
+        font-style: bold;
+        font-size:small;
+    }
+    .right-arrow {
+        position: absolute;
+        top: 40%;
+        right: 20px;
+        font-size: 2rem;
+        color: white;
+        z-index: 50;
+        cursor: pointer;
+        user-select: none;
+    }
+    .left-arrow {
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        font-size: 2rem;
+        color: white;
+        z-index: 50;
+        cursor: pointer;
+        user-select: none;
+    }
+    .slider {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        top: 25px;
+        margin-bottom: 5px;
+    }
+    .image {
+        width: 91vw;
+        height: 64vh;
+        filter: brightness(50%)
+    }
+}

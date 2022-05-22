@@ -1,0 +1,85 @@
+.aucontainer3
+{
+    background-color: #218380;
+    margin-bottom: 5px;
+    padding-bottom: 60px;
+}
+.team-heading
+{
+    color: white;
+}
+.team-member
+{
+    display: flex;
+    align-items: center;
+    background-color: #a1d4d2;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.team-collection
+{
+    display: flex;
+}
+.team
+{
+    text-align: center;
+ 
+}
+.team-text
+{
+    text-align: center;
+    margin: 30px;
+}
+.team-img
+{
+    height: 350px;
+    margin: 20px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 300px) {
+    .team-collection
+{
+    display: flex;
+    flex-direction: column;
+}
+.team-member
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a1d4d2;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.team-img
+{
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+    .team-collection
+{
+    display: flex;
+    flex-direction: column;
+}
+.team-member
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a1d4d2;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.team-img
+{
+    height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+}
+}

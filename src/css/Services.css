@@ -1,0 +1,135 @@
+.services-image
+{
+    width: 50vw;
+    margin: 50px;
+    border-radius: 10px;
+}
+.services-container-row1
+{
+    display:flex;
+    background-color: #83d8d5;
+    margin-top: 10px;
+}
+.services-container-row2
+{
+    display:flex;
+    background-color: #218380;
+    margin-top: 10px;
+}
+.services-container
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.services-text1
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.heading
+{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.services-text2
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(42, 39, 39);
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    .services-container
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.heading
+{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.services-container-row2
+{
+    display:flex;
+    flex-direction: column-reverse;
+    background-color: #218380;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.services-text1
+{
+    padding-left: 10px;
+    margin-top: 30px;
+    padding-right: 10px;
+    color: white;
+
+}
+.services-text2
+{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(42, 39, 39);
+}
+.services-image
+{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+}
+@media screen and (max-width: 600px) {
+    .services-container
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.heading
+{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.services-container-row2
+{
+    display:flex;
+    flex-direction: column-reverse;
+    background-color: #218380;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.services-text1
+{
+    padding-left: 10px;
+    margin-top: 30px;
+    padding-right: 10px;
+    color: white;
+
+}
+.services-text2
+{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(42, 39, 39);
+}
+.services-image
+{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+}

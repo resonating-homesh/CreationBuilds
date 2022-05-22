@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footerContainer {
+    background-color: #0c2d2b;
+    margin-top: 10px;
+}
+.footerContainer
+{
+    background-color: #141414;
+    padding: 10px;
+    color: white;
+}
+.footerColumns {
+    display: flex;
+    justify-content: space-between;
+}
+.left-aligned {
+    display: flex;
+}
+.right-aligned
+{
+    margin-left: 10px;
+}
+.bottom-ribbon {
+    border-width: 2px;
+    border-color: blue;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+    z-index: 1;
+}
+ul {
+    margin-top: 10px;
+    text-decoration: none;
+}
+p {
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.container1 {
+    margin-right: 400px;
+}
+.footer-links:hover {
+    color: aqua;
+}
+.call {
+    padding-right: 0px;
+}
+.mail {
+    align-content: center;
+    padding-right: 80px;
+}
+.lnks
+{
+    text-decoration: none;
+    color: white;
+}
+.lnks:hover
+{
+    text-decoration: underline;
+}
+li {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 5px;
+}
+@media screen and (min-width:600px) and (max-width: 1000px) {
+
+    .footerColumns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .container1 {
+        margin-right: 100px;
+    }
+    .bottom-ribbon {
+        border-width: 2px;
+        border-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+        z-index: 1;
+    }
+    .left-aligned {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px) {
+    .container1{
+        margin-right: 0px;
+    }
+    .footerColumns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bottom-ribbon {
+        border-width: 2px;
+        border-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+        z-index: 1;
+    }
+    .left-aligned {
+        display: flex;
+        flex-direction: column;
+    }
+}
